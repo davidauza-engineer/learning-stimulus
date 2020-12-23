@@ -16,6 +16,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "express": "^4.16.3",
     "nodemon": "^1.17.5",
+    "stimulus": "^2.0.0",
     "webpack": "^4.9.1",
     "webpack-dev-middleware": "^3.1.3"
   }
