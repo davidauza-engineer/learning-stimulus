@@ -3,7 +3,8 @@ import { Controller } from 'stimulus';
 export default class extends Controller {
   static targets = ['name'];
 
-  greet() {
+  greet(event) {
+    event.preventDefault();
     const name = this.nameTarget.value;
     console.log(`Hello, ${name}`);
   }
